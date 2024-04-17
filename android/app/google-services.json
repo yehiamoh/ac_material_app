@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837853702746",
+    "project_id": "ac-material",
+    "storage_bucket": "ac-material.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837853702746:android:6e2b4421eafd9c849cc663",
+        "android_client_info": {
+          "package_name": "com.example.ac_material_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAXGwhstEim6CMp6vW0IVueYqKxMao-X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
