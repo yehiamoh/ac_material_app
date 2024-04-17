@@ -1,5 +1,4 @@
 import 'package:ac_material_app/cubits/login_cubit.dart';
-import 'package:ac_material_app/firebase_helper/firebase_helper-auth.dart';
 import 'package:ac_material_app/screens/bottom_bar.dart';
 import 'package:ac_material_app/screens/sign_up_screen.dart';
 import 'package:ac_material_app/screens/home_screen.dart';
@@ -21,7 +20,7 @@ class _LoginScreenState extends State<LoginScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   GlobalKey<FormState> key = GlobalKey<FormState>();
-  FireBaseHelper firebase = FireBaseHelper();
+
 
   Widget build(BuildContext context) {
     return BlocListener<LoginCubit, LoginState>(

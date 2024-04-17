@@ -1,10 +1,7 @@
 import 'package:ac_material_app/cubits/auth_cubit.dart';
-import 'package:ac_material_app/firebase_helper/firebase_helper-auth.dart';
 import 'package:ac_material_app/screens/bottom_bar.dart';
 import 'package:ac_material_app/screens/log_in_screen.dart';
-import 'package:ac_material_app/screens/home_screen.dart';
 import 'package:ac_material_app/widgets/my_text_form_field.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -20,7 +17,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   GlobalKey<FormState> key = GlobalKey<FormState>();
-  FireBaseHelper firebase = FireBaseHelper();
+
   @override
   Widget build(BuildContext context) {
     return BlocListener<AuthCubit, AuthState>(
